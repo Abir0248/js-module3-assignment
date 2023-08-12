@@ -7,3 +7,13 @@ function printObjectProperties(obj) {
     }
   }
 }
+const person = {
+  name: "John",
+  age: 30,
+  occupation: "Engineer",
+};
+
+const emptyObject = {};
+
+printObjectProperties(person);
+printObjectProperties(emptyObject);
